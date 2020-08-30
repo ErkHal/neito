@@ -496,6 +496,10 @@ Entry Wire Line
 Entry Wire Line
 	5400 5650 5500 5750
 Wire Wire Line
+	5100 5350 5400 5350
+Wire Wire Line
+	5100 5450 5400 5450
+Wire Wire Line
 	5100 5550 5400 5550
 Wire Wire Line
 	5100 5650 5400 5650
@@ -1038,6 +1042,12 @@ Wire Wire Line
 Wire Wire Line
 	7150 5850 6550 5850
 Wire Wire Line
+	6550 5850 6550 5450
+Wire Wire Line
+	5500 5450 6550 5450
+Wire Wire Line
+	6500 5550 6500 5900
+Wire Wire Line
 	6500 5900 7200 5900
 Wire Wire Line
 	7200 5900 7200 5100
@@ -1047,6 +1057,8 @@ Wire Wire Line
 	8400 5100 8400 4950
 Wire Wire Line
 	8400 4950 8300 4950
+Wire Wire Line
+	5500 5550 6500 5550
 $Comp
 L power:GND #PWR01
 U 1 1 5C51C1AD
@@ -1336,18 +1348,6 @@ F 3 "" H 1200 4750 50  0001 C CNN
 	1    1050 4750
 	1    0    0    -1  
 $EndComp
-Text Label 7300 4950 0    50   ~ 0
-PF4
-Text Label 8350 4950 0    50   ~ 0
-PF5
-Wire Wire Line
-	6550 5350 6550 5850
-Wire Wire Line
-	5100 5450 6500 5450
-Wire Wire Line
-	6500 5450 6500 5900
-Wire Wire Line
-	5100 5350 6550 5350
 Wire Bus Line
 	5750 2700 5750 3150
 Wire Bus Line
